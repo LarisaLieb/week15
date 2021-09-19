@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 * {
-  margin: 0;
+  margin: 10px;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -135,14 +135,16 @@ h1 {
   float: left;
   width: 100%;
   margin: 0 0 30px 0;
+  line-height: 30px;
+  margin: 0 0 10px 0;
 }
 
-#reg-radio label.radio {
+#reg-radio label {
   float: left;
   width: auto;
   line-height: 30px;
-  margin: 0 0 10px 0;
-  color: #fff;
+  margin: 0 10px 10px 20px;
+  color: #faf6f6;
   font-family: 'Indie Flower', cursive;
   font-size: 22px;
   cursor: pointer;
@@ -153,22 +155,21 @@ h1 {
   -moz-transition: 0.3s;
 }
 
-#reg-radio label.radio:before {
-  content: '';
+#reg-radio label:before {
+  /*content: '';*/
   float: left;
   width: 29px;
   height: 29px;
   margin: 0 5px 0 0;
-  background-color: #fff;
+  background-color: #2348be;
   border-radius: 100%;
   font-size: 22px;
   text-indent: 40px;
 }
 
-#reg-radio label.radio:after {
-  content: '';
-  width: 5px;
-  height: 5px;
+#reg-radio label:after {
+  /*width: 5px;
+            height: 5px;*/
   background-color: #2C3E50;
   border-radius: 100%;
   position: absolute;
@@ -180,7 +181,7 @@ h1 {
   -moz-transition: 0.2s;
 }
 
-#reg-radio label.radio.selected:after {
+#reg-radio label.selected:after {
   width: 15.5px;
   height: 15.5px;
   top: 7px;
@@ -188,16 +189,16 @@ h1 {
   opacity: 1;
 }
 
-#reg-radio label.radio:hover {
+#reg-radio label:hover {
   text-indent: 5px;
 }
 
-.btn {
+#signup {
   float: left;
-  width: 100%;
+  width: 50%;
   height: 50px;
   line-height: 50px;
-  margin: 0 0 50px 0;
+  margin: 0 0 50px 100px;
   background-color: #2C3E50;
   color: #fff;
   font-family: 'Indie Flower', cursive;
@@ -209,7 +210,7 @@ h1 {
   -moz-transition: 0.3s;
 }
 
-.btn:hover {
+#signup:hover {
   background-color: #374b60;
 }
 /*# sourceMappingURL=styles.css.map */

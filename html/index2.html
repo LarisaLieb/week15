@@ -14,35 +14,35 @@
         <h1>Registration Form</h1>
 
         <!--  Fancy inputs  -->
-        <div id="reg-inputs">
-            <label class="input">
-                <input type="text">
-                <span><span>Username</span></span>
-            </label>
+        <form name="Form">
+            <div id="reg-inputs">
+                <label class="input">
+                    <input type="text" id="username" name="username" class="data">
+                    <span><span>Username</span></span>
+                </label>
 
-            <label class="input">
-                <input type="text">
-                <span><span>Password</span></span>
-            </label>
-            <label class="input">
-                <input type="text">
-                <span><span>Phone number</span></span>
-            </label>
-            <label class="input">
-                <input type="text">
-                <span><span>e-mail</span></span>
-            </label>
-        </div>
+                <label class="input">
+                    <input type="text" id="password" name="password" class="data">
+                    <span><span>Password</span></span>
+                </label>
+                <label class="input">
+                    <input type="text" id="phone" name="phone" class="data">
+                    <span><span>Phone number</span></span>
+                </label>
+                <label class="input">
+                    <input type="text" class="data" id="mail" name="mail">
+                    <span><span>e-mail</span></span>
+                </label>
+            </div>
 
-        <div id="reg-radio">
-            <input type="radio" name="group" id="questions" class="pull-left" style="display: none;">
-            <label class="radio questions" for="questions">Male</label>
+            <div id="reg-radio">
+                <label for="male">Man</label>
+                <input id="male" type="radio" name="sex" class="pull-left" checked><br>
+                <label for="female">Woman</label>
+                <input id="female" type="radio" name="sex" class="pull-left"><br></div>
 
-            <input type="radio" name="group" id="photo" class="pull-left" style="display: none;">
-            <label class="radio photo" for="photo">Female</label>
-        </div>
-
-        <a href="" class="btn">Sign Up</a>
+        </form>
+        <button id="signup">Sign Up</button>
     </div>
 
     <script src="/js/index2.js">

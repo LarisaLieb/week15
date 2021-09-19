@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 10px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -8,14 +8,13 @@ body {
     background-color: #329296;
 }
 
-// Layout
+
 
 .middle {
     width: 460px;
     margin: 0 auto;
 }
 
-// Fonts
 
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 
@@ -28,7 +27,7 @@ h1 {
     text-align: center;
 }
 
-// Fancy inputs
+
 
 #reg-inputs {
     float: left;
@@ -144,19 +143,21 @@ h1 {
     }
 }
 
-// Fancy radio btns
+
 
 #reg-radio {
     float: left;
     width: 100%;
     margin: 0 0 30px 0;
+    line-height: 30px;
+    margin: 0 0 10px 0;
 
-    label.radio {
+    label {
         float: left;
         width: auto;
         line-height: 30px;
-        margin: 0 0 10px 0;
-        color: #fff;
+        margin: 0 10px 10px 20px;
+        color: rgb(250, 246, 246);
         font-family: 'Indie Flower', cursive;
         font-size: 22px;
         cursor: pointer;
@@ -167,19 +168,19 @@ h1 {
         -moz-transition: 0.3s;
 
         &:before {
-            content: '';
+
             float: left;
             width: 29px;
             height: 29px;
             margin: 0 5px 0 0;
-            background-color: #fff;
+            background-color: rgb(35, 72, 190);
             border-radius: 100%;
             font-size: 22px;
             text-indent: 40px;
         }
 
         &:after {
-            content: '';
+
             width: 5px;
             height: 5px;
             background-color: #2C3E50;
@@ -209,14 +210,14 @@ h1 {
     }
 }
 
-// Buttons
 
-.btn {
+
+#signup {
     float: left;
-    width: 100%;
+    width: 50%;
     height: 50px;
     line-height: 50px;
-    margin: 0 0 50px 0;
+    margin: 0 0 50px 100px;
     background-color: #2C3E50;
     color: #fff;
     font-family: 'Indie Flower', cursive;
